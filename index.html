@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Steven Clarke | Portfolio</title>
+
+    <!-- jQuery & jQuery Mobile -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+
+  </head>
+  <body>
+    <!-- HOME PAGE -->
+    <div data-role="page" id="home">
+      <div data-role="header" data-position="fixed">
+        <h1>My Portfolio</h1>
+      </div>
+
+      <div data-role="content">
+        <div class="profile-pic">
+          <img
+            src="img/steven 1x1.jpg"
+            alt="Steven Clarke"
+            style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%; display: block"
+          />
+        </div>
+        <h2 style="color: #064991; font-weight: bold; text-align: center; margin: 10px 0 10px 0; letter-spacing: 0.5px">
+          Steven Clarke
+        </h2>
+        <p style="color: #111 !important">
+          Backend Developer passionate about building efficient and secure web applications.
+        </p>
+
+        <div class="social-icons">
+          <a href="https://www.tiktok.com/@user2050077752180?_t=ZS-90IXljVCcYH&_r=1"><i class="fab fa-tiktok"></i></a>
+          <a href="https://www.instagram.com/stvnclrk_?igsh=MXMyb3cwd3FtYml6bQ=="><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/share/1BdbivV8xL/"><i class="fab fa-facebook"></i></a>
+        </div>
+
+        <div class="nav-buttons">
+          <a href="#about" data-transition="slide">About Me</a>
+          <a href="#skills" data-transition="slide">Skills</a>
+          <a href="#projects" data-transition="slide">Projects</a>
+          <a href="#contact" data-transition="slide">Contact</a>
+        </div>
+      </div>
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="false">
+        <h4>&copy; 2025 Steven Clarke</h4>
+      </div>
+    </div>
+
+    <!-- ABOUT PAGE -->
+    <div data-role="page" id="about">
+      <div data-role="header" data-position="fixed">
+        <a href="#home" data-icon="arrow-l" data-transition="slide" data-direction="reverse">Back</a>
+        <h1>About Me</h1>
+      </div>
+
+      <div data-role="content">
+        <!-- Slideshow -->
+        <div class="slideshow">
+          <img src="img/steve1.jpg" alt="photo1" />
+          <img src="img/steve2.jpg" alt="photo2" />
+          <img src="img/steve3.jpg" alt="photo3" />
+          <img src="img/steve4.jpg" alt="photo4" />
+          <img src="img/steve5.jpg" alt="photo5" />
+        </div>
+
+        <div class="info-box">
+          <p>I’m Appointed as the New Chairperson of Documentation Committee</p>
+          <p>Currently a 3rd Year IT Student at Lemery Colleges</p>
+          <p>An aspiring backend developer</p>
+        </div>
+
+        <div class="highlight-box">
+          <p><strong>Special Mention to my Girlfriend — Let me Introduce her</strong></p>
+          <a href="#girlfriend" data-transition="slide"><button>Click ME!</button></a>
+        </div>
+      </div>
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="false">
+        <h4>&copy; 2025 Steven Clarke</h4>
+      </div>
+    </div>
+
+    <!-- GIRLFRIEND PAGE -->
+    <div data-role="page" id="girlfriend">
+      <div data-role="header" data-position="fixed">
+        <a href="#about" data-icon="arrow-l" data-transition="slide" data-direction="reverse">Back</a>
+        <h1>My Girlfriend 💖</h1>
+      </div>
+
+      <div data-role="content">
+        <p>Here’s how I proudly introduce her:</p>
+        <div class="gf-slideshow">
+          <img src="img/cols1.jpg" alt="Her 1" />
+          <img src="img/cols2.jpg" alt="Her 2" />
+          <img src="img/cols3.jpg" alt="Her 3" />
+          <img src="img/cols4.jpg" alt="Her 4" />
+          <img src="img/cols5.jpg" alt="Her 5" />
+          <img src="img/cols6.jpg" alt="Her 6" />
+          <img src="img/cols7.jpg" alt="Her 7" />
+        </div>
+        <p>She’s my biggest inspiration and my constant motivation ❤️</p>
+      </div>
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="false">
+        <h4>&copy; 2025 Steven Clarke</h4>
+      </div>
+    </div>
+
+    <!-- SKILLS PAGE -->
+    <div data-role="page" id="skills">
+      <div data-role="header" data-position="fixed">
+        <a href="#home" data-icon="arrow-l" data-transition="slide" data-direction="reverse">Back</a>
+        <h1>Skills</h1>
+      </div>
+
+      <div data-role="content">
+        <h3>Tech Stack</h3>
+
+        <div class="skills-grid" aria-label="Skills grid">
+          <div class="skill-card" tabindex="0">
+            <div class="skill-figure" role="img" aria-label="HTML">
+              <i class="fa-brands fa-html5 skill-icon skill-html" aria-hidden="true"></i>
+            </div>
+            <div class="skill-label">HTML</div>
+          </div>
+
+          <div class="skill-card" tabindex="0">
+            <div class="skill-figure" role="img" aria-label="CSS">
+              <i class="fa-brands fa-css3-alt skill-icon skill-css" aria-hidden="true"></i>
+            </div>
+            <div class="skill-label">CSS</div>
+          </div>
+
+          <div class="skill-card" tabindex="0">
+            <div class="skill-figure" role="img" aria-label="JavaScript">
+              <i class="fa-brands fa-js-square skill-icon skill-js" aria-hidden="true"></i>
+            </div>
+            <div class="skill-label">JavaScript</div>
+          </div>
+
+          <div class="skill-card" tabindex="0">
+            <div class="skill-figure" role="img" aria-label="PHP">
+              <i class="fa-brands fa-php skill-icon skill-php" aria-hidden="true"></i>
+            </div>
+            <div class="skill-label">PHP</div>
+          </div>
+
+          <div class="skill-card" tabindex="0">
+            <div class="skill-figure" role="img" aria-label="MySQL">
+              <i class="fa-solid fa-database skill-icon skill-mysql" aria-hidden="true"></i>
+            </div>
+            <div class="skill-label">MySQL</div>
+          </div>
+
+          <div class="skill-card" tabindex="0">
+            <div class="skill-figure" role="img" aria-label="VB.NET">
+              <i class="fa-solid fa-code skill-icon skill-vb" aria-hidden="true"></i>
+            </div>
+            <div class="skill-label">VB.NET</div>
+          </div>
+        </div>
+      </div>
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="false">
+        <h4>Footer</h4>
+      </div>
+    </div>
+
+    <!-- PROJECTS PAGE -->
+    <div data-role="page" id="projects">
+      <div data-role="header" data-position="fixed">
+        <a href="#home" data-icon="arrow-l" data-transition="slide" data-direction="reverse">Back</a>
+        <h1>Projects</h1>
+      </div>
+      <div
+        data-role="content"
+        style="
+          min-height: calc(100vh - 110px);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+        "
+      >
+        <div class="projects-grid">
+          <div class="project-card">
+            <img
+              src="projects/ceejjoes.png"
+              alt="Ordering and Pick Up System"
+              class="project-img"
+              tabindex="0"
+              data-modal="modal1"
+            />
+            <h3>Ceej & Joe’s Brew Cafe Ordering and Pick Up System</h3>
+          </div>
+          <div class="project-card">
+            <img
+              src="projects/lemerycollegesguest.png"
+              alt="Lemery Colleges Logbook"
+              class="project-img"
+              tabindex="0"
+              data-modal="modal2"
+            />
+            <h3>Lemery Colleges Guest Logbook System</h3>
+          </div>
+        </div>
+      </div>
+      <!-- Project Modals moved outside content for overlay -->
+      <div id="modal1" class="project-modal">
+        <div class="project-modal-content">
+          <button class="project-modal-close" aria-label="Close">&times;</button>
+          <img src="projects/ceejjoes.png" alt="Ordering and Pick Up System" class="project-modal-img" />
+          <h3>Ceej & Joe’s Brew Cafe Ordering and Pick Up System</h3>
+          <p>
+            Customers can explore a wide variety of food and beverages—such as coffee, milk teas, frappes, and snacks
+            with each item displayed alongside images, descriptions, and pricing. The system allows users to simulate
+            the ordering process by adding items to a virtual cart and checking out.
+          </p>
+        </div>
+      </div>
+      <div id="modal2" class="project-modal">
+        <div class="project-modal-content">
+          <button class="project-modal-close" aria-label="Close">&times;</button>
+          <img src="projects/lemerycollegesguest.png" alt="Lemery Colleges Logbook" class="project-modal-img" />
+          <h3>Lemery Colleges Guest Logbook System</h3>
+          <p>
+            Lemery Colleges Guest Computerized Logbook System represents a modernized approach to guest management,
+            departing from conventional paper logbooks. This system is designed to efficiently capture and store guest
+            information through a combination of manual input and automated data acquisition methods.
+          </p>
+        </div>
+      </div>
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="false">
+        <h4>&copy; 2025 Steven Clarke</h4>
+      </div>
+    </div>
+
+    <!-- CONTACT PAGE -->
+    <div data-role="page" id="contact">
+      <div data-role="header" data-position="fixed">
+        <a href="#home" data-icon="arrow-l" data-transition="slide" data-direction="reverse">Back</a>
+        <h1>Contact</h1>
+      </div>
+
+      <div data-role="content">
+        <div class="contact-card">
+          <h3>Get in touch</h3>
+          <p class="contact-desc">For inquiries, collaborations, or freelance work — I'd love to hear from you.</p>
+
+          <div class="contact-card">
+            <h3>Send me a message</h3>
+            <p class="contact-desc">Fill the form below and I'll get back to you as soon as possible.</p>
+
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-row">
+                <label for="name">Your name</label>
+                <input id="name" name="name" type="text" placeholder="Enter your Name" required />
+              </div>
+
+              <div class="form-row">
+                <label for="email">Your email</label>
+                <input id="email" name="email" type="email" placeholder="Enter your Email" required />
+              </div>
+
+              <div class="form-row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="cta-btn">Send Message</button>
+                <button type="reset" class="cta-btn ghost">Reset</button>
+              </div>
+
+              <div id="formStatus" aria-live="polite" style="margin-top:12px"></div>
+            </form>
+          </div>
+          </div>
+        </div>
+      </div>
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="false">
+        <h4>&copy; 2025 Steven Clarke</h4>
+      </div>
+    </div>
+
+    <script>
+      // Project modal logic (vanilla JS, like por.html)
+      document.querySelectorAll(".project-img").forEach((img) => {
+        img.addEventListener("click", function (e) {
+          e.stopPropagation();
+          const modalId = this.getAttribute("data-modal");
+          const modal = document.getElementById(modalId);
+          if (modal) modal.classList.add("active");
+        });
+        img.addEventListener("keypress", function (e) {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            const modalId = this.getAttribute("data-modal");
+            const modal = document.getElementById(modalId);
+            if (modal) modal.classList.add("active");
+          }
+        });
+      });
+      document.querySelectorAll(".project-modal-close").forEach((btn) => {
+        btn.addEventListener("click", function (e) {
+          e.stopPropagation();
+          this.closest(".project-modal").classList.remove("active");
+        });
+      });
+      window.addEventListener("click", function (e) {
+        document.querySelectorAll(".project-modal.active").forEach((modal) => {
+          if (e.target === modal) modal.classList.remove("active");
+        });
+      });
+      window.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") {
+          document.querySelectorAll(".project-modal.active").forEach((modal) => {
+            modal.classList.remove("active");
+          });
+        }
+      });
+      // Prevent focus on skill cards from causing the page to jump/scroll
+      (function () {
+        let lastScroll = { x: 0, y: 0 };
+        document.addEventListener(
+          "scroll",
+          function () {
+            // capture last known scroll position when user scrolls manually
+            lastScroll.x = window.scrollX || window.pageXOffset;
+            lastScroll.y = window.scrollY || window.pageYOffset;
+          },
+          { passive: true }
+        );
+
+        // When a skill-card gets focus, briefly restore the previous scroll position
+        document.querySelectorAll(".skill-card").forEach((card) => {
+          card.addEventListener("focus", function (e) {
+            // restore scroll position after focus event to prevent browser auto-scroll
+            window.scrollTo(lastScroll.x, lastScroll.y);
+          });
+        });
+      })();
+
+      // Contact form handling (client-side only, saves to localStorage)
+      (function(){
+        const form = document.getElementById('contactForm');
+        const status = document.getElementById('formStatus');
+        if (!form) return;
+
+        function validateEmail(email) {
+          return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        }
+
+        form.addEventListener('submit', function(e){
+          e.preventDefault();
+          const name = form.name.value.trim();
+          const email = form.email.value.trim();
+          const message = form.message.value.trim();
+
+          if (!name || !email || !message) {
+            status.textContent = 'Please fill in all fields.';
+            status.style.color = '#b91c1c';
+            return;
+          }
+          if (!validateEmail(email)) {
+            status.textContent = 'Please enter a valid email address.';
+            status.style.color = '#b91c1c';
+            return;
+          }
+
+          // Save to localStorage (simple demo fallback)
+          try {
+            const saved = JSON.parse(localStorage.getItem('messages') || '[]');
+            saved.push({ name, email, message, date: new Date().toISOString() });
+            localStorage.setItem('messages', JSON.stringify(saved));
+
+            status.textContent = 'Message saved locally. Thank you!';
+            status.style.color = '#0f766e';
+            form.reset();
+          } catch (err) {
+            status.textContent = 'Sorry, could not save message locally.';
+            status.style.color = '#b91c1c';
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>
